@@ -12,7 +12,7 @@ import {
 
 const FooterComponent = () => {
   return (
-    <Footer height={60} p="md">
+    <Footer height={60} p="md" fixed>
           Application footer
     </Footer>
   )

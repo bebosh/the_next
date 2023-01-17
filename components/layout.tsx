@@ -22,7 +22,7 @@ export default function Layout({ children }: Props) {
   return (
     <MantineProvider withGlobalStyles withNormalizeCSS>
       <div className={classes.wrapper}>
-        <Header />
+        <Header  />
         <main>{children}</main>
         <Footer />
       </div>
